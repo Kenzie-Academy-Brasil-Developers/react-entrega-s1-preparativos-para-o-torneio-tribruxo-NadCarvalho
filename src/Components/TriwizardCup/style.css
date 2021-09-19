@@ -1,0 +1,25 @@
+.TriwizardCup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 90vw;
+    width: 768px;
+}
+
+.wizards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    padding: 0;
+    list-style: none;
+}
+
+.wizards li {
+    margin: 20px;
+    width: 150px;
+    max-width: 40vw;
+}

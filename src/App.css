@@ -1,0 +1,34 @@
+:root {
+    --gryffindor: #FC3C3B;
+    --slytherin: #00A421;
+    --hufflepuff: #F9E141;
+    --ravenclaw: #183181;
+}
+
+.App {
+    color: white;
+    background-color: #1f1f1f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+button {
+    color: black;
+    background-color: #f9e141;
+    border-radius: 15px;
+    width: 200px;
+    max-width: 50vw;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: black;
+    color: #f9e141;
+}

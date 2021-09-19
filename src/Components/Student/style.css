@@ -1,0 +1,68 @@
+.Student {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 320px;
+}
+
+.Student img {
+    border: 5px solid;
+    width: 150px;
+    height: 210px;
+    background-size: contain;
+}
+
+.Student span {
+    margin: 5px;
+}
+
+.Student .status {
+    margin: 2px;
+    width: 32px;
+    height: 32px;
+    border: 1px solid black;
+    background-size: contain;
+    border-radius: 50%;
+    filter: invert(1);
+}
+
+.Alive {
+    background-image: url('images/hearth.png');
+}
+
+.Deceased {
+    background-image: url('images/grave.png');
+}
+
+.Gryffindor img {
+    border-color: var(--gryffindor);
+}
+
+.Gryffindor .house {
+    color: var(--gryffindor);
+}
+
+.Slytherin img {
+    border-color: var(--slytherin);
+}
+
+.Slytherin .house {
+    color: var(--slytherin);
+}
+
+.Hufflepuff img {
+    border-color: var(--hufflepuff);
+}
+
+.Hufflepuff .house {
+    color: var(--hufflepuff);
+}
+
+.Ravenclaw img {
+    border-color: var(--ravenclaw);
+}
+
+.Ravenclaw .house {
+    color: var(--ravenclaw);
+}
