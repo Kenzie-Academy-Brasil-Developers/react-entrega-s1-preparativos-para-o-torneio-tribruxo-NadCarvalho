@@ -8,7 +8,7 @@ function App() {
   const [wizards, setWizards] = useState([])
 
   useEffect(() => {
-    fetch("http://hp-api.herokuapp.com/api/characters/students")
+    fetch("https://hp-api.herokuapp.com/api/characters/students")
     .then(response => response.json())
     .then(results => setWizards(results))
   }, [setShowCup])
